@@ -7,7 +7,8 @@ body {
     justify-content: space-between;
 }
 .header {
-    background-color: #1F2937;   
+    background-color: #1F2937;
+    max-height: 450px;   
 }
 
 .logolink {
@@ -49,8 +50,8 @@ body {
 .text{
     flex: auto;
     max-width: 300px;
-    max-height: 300px;
-    min-height: 200px;
+    /* max-height: 300px;
+    min-height: 200px; */
 
     display: flex;
     flex-direction: column;
