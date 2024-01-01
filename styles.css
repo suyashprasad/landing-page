@@ -6,35 +6,40 @@ body {
     flex-direction: column;
     justify-content: space-between;
 }
+
 .header {
     background-color: #1F2937;
-    max-height: 450px;   
+    max-height: 450px;
 }
 
 .logolink {
     display: flex;
     align-items: center;
     justify-content: center;
-   
+
 }
+
 .logo {
-    flex:auto;
+    flex: auto;
     padding-left: 5%;
     font-size: 24px;
     color: #F9FAF8;
 }
+
 .link {
     flex: auto;
     padding-right: 5%;
+
     a {
         text-decoration: none;
         font-size: 18px;
-        color : #E5E7EB;
+        color: #E5E7EB;
     }
+
     ul {
         display: flex;
         justify-content: flex-end;
-        gap:10px;
+        gap: 10px;
         list-style-type: none
     }
 }
@@ -44,10 +49,11 @@ body {
     /* flex-direction: column; */
     padding: 5%;
     justify-content: center;
-    gap:20%;
+    gap: 20%;
     align-items: center;
 }
-.text{
+
+.text {
     flex: auto;
     max-width: 300px;
     /* max-height: 300px;
@@ -58,6 +64,7 @@ body {
     justify-content: space-between;
     gap: 10px;
 }
+
 .maintext {
     font-size: 48px;
     font-weight: bolder;
@@ -79,28 +86,31 @@ button {
 .image {
     img {
         max-height: 300px;
-        max-width:300px;
+        max-width: 300px;
     }
-   
+
 }
 
 .info {
     padding: 12%;
     display: flex;
     flex-direction: column;
-    justify-content:space-around;
-    align-items:center;
+    justify-content: space-around;
+    align-items: center;
+
     .infoheading {
         font-size: 36px;
-        font-weight:bolder;
+        font-weight: bolder;
         color: #1F2937;
         margin-bottom: 50px;
     }
+
     .infotiles {
         display: flex;
         justify-content: center;
         gap: 10px;
         align-items: center;
+
         .infoimage {
             img {
                 border: 3px solid;
@@ -108,22 +118,24 @@ button {
                 border-radius: 5%;
                 margin: 2px;
             }
-          
-            
+
+
         }
-    
+
     }
-    
+
 }
 
 .quote {
-    padding:10%;
+    padding: 10%;
     background-color: #E5E7EB;
+
     .mainquote {
         font-size: 36px;
         font-style: italic;
-        
+
     }
+
     .author {
         font-weight: bolder;
         text-align: right;
@@ -138,12 +150,13 @@ button {
     padding-right: 10%;
     align-items: center;
     border-radius: 25px;
-    gap:2%;
+    gap: 2%;
     margin-left: 12%;
     margin-right: 12%;
     margin-top: 5%;
     margin-bottom: 5%;
     min-height: 100px;
+
     .button {
         align-self: center;
     }
@@ -154,6 +167,7 @@ button {
     color: #E5E7EB;
     font-weight: bold;
 }
+
 .signupsecondarytext {
     color: #E5E7EB;
 }
@@ -166,4 +180,3 @@ button {
     justify-content: center;
     align-items: center;
 }
-
